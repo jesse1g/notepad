@@ -1,0 +1,94 @@
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.note-btns {
+	margin-right:10px;
+}
+
+.note-view {
+	padding-top: 15px;
+}
+
+.note-content{
+	overflow-wrap: break-word;
+}
+
+.sidenav-header h3 {
+	margin-top: 10px;
+}
+
+.row.content {height: 838px}
+
+.sidenav {
+  padding-top: 10px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, make adjustments, responsive */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {
+  		height:auto;
+  	}
+  .note-view {
+  		text-align: center;
+  }
+}
+
+/* css loading animation */
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
